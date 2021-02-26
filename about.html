@@ -2,7 +2,20 @@
 <html>
 <head>
     <title>Week 1 project</title>
-    <script src = "jquery-3.5.1.js"></script>
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      
+      <script>
+         $(function() {
+            $( "#accord" ).accordion({
+               collapsible: true
+            });
+         });
+      </script>
+      
+    
    <style>
        * {
 box-sizing: border-box;
@@ -42,22 +55,28 @@ color: white;
 }
 
 main {
-background-color: rgb(112, 11, 112);
+background-color: rgb(193, 207, 204);
 text-align: center;
 }
 
-h2 {
+h3{
 padding: 20px;
+}
+p {
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 
 section {
 min-height: 100vh;
 }
-table, th, td {border: 1px solid black;}
-           
-            th {background: cyan;}
-            td {text-align: center; background: rgb(211, 191, 10);}
+#accord{
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
       </style>
        </head>
 
@@ -74,57 +93,50 @@ table, th, td {border: 1px solid black;}
 </nav>
 <main>
     <section>
+        <br><br>
+
+        <img style="border-radius: 1cm;" src="https://drive.google.com/thumbnail?id=18zGB_BW7M5KxDYX9mndESNzITk4VZ-mU" alt="img">
+        <br><br>
+        <div id="accord">
      
-        <h2 >Introduction</h2>
-
-       <h3 style="margin-left: 7%;">I am Utkarsh Raj . I am currently studying applied mathematics at IIT ROORKEE.</h3>
-        <h2>Education</h2>  
-        <table style="width:100%">
-        
-            <tr>
-                <th>CLASS</th>
-                <th>INSTITUTION</th>
-                <th>YEAR OF PASSING</th>
-                <th>MARKS OBTAINED</th>
-            </tr>
-            <tr>
-                <td>10th</td>
-                <td>JNV KISHANGANJ</td>
-                <td>2018</td>
-                <td>95.6%</td>
-    
-            </tr>
-            <tr>
-                <td>12th</td>
-                <td>JNV BANGALORE URBAN</td>
-                <td>2020</td>
-                <td>94.8%</td>
-    
-            </tr>
-            <tr>
-                <td>INT Msc</td>
-                <td>IIT ROORKEE</td>
-                <td>2025</td>
-                <td>--</td>
-    
-            </tr></table>      
+        <h3 >Introduction</h3>
+        <div>
+        <h3 style="margin-left: 7%;">Hello Myself Utkarsh Raj from Kishanganj, Bihar. I am currently studying applied mathematics at IIT ROORKEE.</h3>
+        </div>
+        <h3>Education</h3>  
+           <div>
+               <p>
+                   Now let me tell you about my education background. I completed my 10th board from
+                   JNV Kishanganj,Bihar with the agregate percentage of 95.4% in 2018. After that I got selected in Dakshana Foundation which 
+                   provides JEE mains and advanced coaching free of cost. So to join that I had to depart for JNV Bangalore Urban for the 2 years coaching 
+                   prgramme by Dakshana. Then I cleared my 12th board from JNV Bangalore with agregate percentageof 
+                   94.6 and adding to that I got selected in JEE Advanced in 2020 and got admission in IIT ROORKEE. 
+               </p>
+               <br><br>
+           </div>   
             
-            <h2 >Reason to join</h2>
+            <h3 >Reason to join</h3>
+            <div>
+                <p>
+               Till now I have tried many thing like web development,sociothon,hackathon,endeavour and many more things.
+                But nothing kept me going in the long run. I have really liked a few things, but I couldn't continue doing them. I guess this is due to lack of systematic guidance. So I want to properly explore and understand several aspects of software development and find my true interests.</p>
+            <br><br>
+            </div>
+            <h3 >Journey till now</h3>
+            <div>
+                <p>
+            My journey till now with Explorin has been really wonderful. I have really enjoyed and liked all the things which I have done here, understanding new concepts, doing tasks, interacting with all the mentors, industrial experts and all the explorers. Each day I am getting to learn something new. So, I am really looking forward to the program and wish to learn and explore more.</p>
 
-            <h3 style="margin-left: 7%;">Till now I have tried many thing like web development,sociothon,hackathon,endeavour and many more things.
-                But nothing kept me going in the long run. I have really liked a few things, but I couldn't continue doing them and explore more. I guess this is due to lack of systematic guidance. So I want to properly explore and understand several aspects of software development and find my true interests.</h3>
-            <br><br><br><br>
-            <h2 >Journey till now</h2>
-            <h3 style="margin-left: 7%;">My journey till now with Explorin has been really wonderful. I have really enjoyed and liked all the things which I have done here; be it learning from resources, understanding new concepts, doing tasks, interacting with all the mentors, industrial experts and all the explorers. Each day I am getting to learn something new. So, I am really looking forward to the program and wish to learn and explore more.</h3>
-            <br><br><br><br>
-            <h2 >Technologies learnt</h2>
-            <h3 style="margin-left: 7%;">Frontend - HTML, CSS, Jquery basics and
-            C++ basics </h3>
-
-
-        
+            <br><br>
+            </div>
+            <h3 >Technologies learnt</h3>
+            <div>
+            <p>Frontend - HTML, CSS, Jquery basics and
+            C++ basics </p>
+            <br><br>
+            </div>
+        </div>
     </section>
-   
     
 </main>
 </body>
